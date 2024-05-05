@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-xr2wNyrWVcGYfXXdaXNkL0wZNQs6yMsNEymzg1zq1S3yY3pj84f2lHA0Dpmt4Ntpi5qjeW9BlTCHm2wHgr6klw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body{
+        overflow: hidden;
+      }
+      .div1 {
+        border: 1px solid;
+        height: auto;
+        width: 100%;
+      }
+      .div3{
+        display: flex;
+        position: relative;
+        top: -29px;
+      }
+      .div2{
+        border: 1px solid transparent;
+        height: 50px;
+        width: 170px;
+        position: relative;
+        top: -10px;
+        left: 597px;
+        text-align: center;
+        padding-top: 10px;
+        background-color: rgb(239, 48, 48);
+      }
+      a{
+        text-decoration: none;
+        font-size: 17px;
+        color: white;
+      }
+
+      p{
+        position: relative;
+        top: -300px;
+        padding-left: 430px;
+      }
+      button {
+        position: relative;
+        top: -250px;
+        left: 100px;
+        padding: 10px 20px;
+        background-color: rgb(239, 48, 48);
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div1">
+        <nav>
+            <h1 style="padding-left: 70px;font-size: 30px;"></h1>
+            <div class="div3">
+             <div class="div2" style="  border-bottom-left-radius:20px ; "><a href="">Home</a></div>
+            <div class="div2"><a href="">About</a></div>
+            <div class="div2"><a href="">Contact</a></div>
+            <div class="div2"><a href="">Connect</a></div>
+             </div>
+        </nav>
+        <img src alt="">
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>   
+        <button><a href="./SARANYA (2).pdf" download>Download Resume</a></button>
+    </div>
+    <script>
+      let head3 = document.querySelector(".div1");
+      head3.style.backgroundColor = "black";
+
+      let head = document.getElementsByTagName("h1")[0];
+      head.innerHTML = "Saranya";
+      head.style.color = "white";
+    
+      let head2 = document.getElementsByTagName("p")[0];
+      head2.innerHTML = "I'm Saranya";
+      head2.style.color = "white";
+      head2.style.fontFamily = "'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif";
+      head2.style.fontSize = "50px"
+
+      let head4 = document.getElementsByTagName("p")[1];
+      head4.innerHTML = "Web Developer";
+      head4.style.color = "white";
+      head4.style.fontFamily = "'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif";
+      head4.style.fontSize = "50px"
+
+      let head5 = document.getElementsByTagName("p")[2];
+      head5.innerHTML = "A recent graduate with a professional degree in Information Technology , specializing in frontend development. "
+      head5.style.color = "white"
+      head5.style.fontFamily = "'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif";
+      head5.style.paddingTop = "25px";
+      head5.style.color= "gray";
+      head5.style.fontSize = "15px";
+
+      let head6 = document.getElementsByTagName("p")[3];
+      head6.innerHTML = "From the inception of my academic journey, I have been captivated by the artistry of web design and the"
+      head6.style.fontFamily = "'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif";
+      head6.style.color= "gray";
+      head6.style.fontSize = "15px"
+
+      let head7 = document.getElementsByTagName("p")[4];
+      head7.innerHTML = " potential it holds in shaping digital interactions. Throughout my education, I've dedicated myself to mastering the latest technologies and best practices in frontend development."
+      head7.style.color = "white"
+      head7.style.fontFamily = "'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif";
+      head7.style.color= "gray";
+      head7.style.fontSize = "15px"
+    
+      let image = document.getElementsByTagName("img");
+      image[0].src = "./my.jpg";
+      image[0].style.height = "400px";
+      image[0].style.position = "relative";
+      image[0].style.left = "30px";
+      image[0].style.borderRadius = "5%"
+
+      let b1 = document.getElementsByTagName("button");
+      b1[0].style.position = "relative";
+      b1[0].style.left = "430px";
+    </script>
+  </body>
+</html>
+
